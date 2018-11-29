@@ -44,7 +44,6 @@ def main():
                     if i == cust_id:
                         print("\n")
                         cust1 = Customer(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7])
-                    # calling method from Customer class
                         cust1.Address()
             choice = input("Continue? (y/n): ")
             if choice != "y":
